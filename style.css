@@ -1,0 +1,74 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+body {
+    background-image: url("winton.png");
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    font-family: 'Playfair Display', serif; /* Define a fonte padrão */
+}
+
+.bolo {
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin-left: auto; /* Define a margem esquerda como automática */
+    margin-right: auto; /* Define a margem direita como automática */
+    max-width: 100%; /* Define o tamanho máximo da imagem em relação à largura do contêiner */
+    height: auto; /* Permite que a altura da imagem se ajuste automaticamente mantendo a proporção original */
+}
+
+.titulos {
+    font-family: 'Playfair Display', serif; /* Fonte elegante */
+    font-weight: bold; /* Texto em negrito */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    line-height: 1.2; /* Altura da linha para melhorar a legibilidade */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo básico do botão */
+button {
+    background-color: rgb(92, 6, 6); /* Vermelho */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Efeito de hover */
+button:hover {
+    background-color: rgb(92, 6, 6); /* Vermelho escuro */
+    transform: scale(1.05); /* Leve aumento */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
+}
+
+/* Efeito de clique */
+button:active {
+    background-color: rgb(92, 6, 6); /* Vermelho ainda mais escuro */
+    transform: scale(0.98); /* Leve redução */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra mais suave */
+}
+
+/* Estilo para centralizar o botão */
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha no topo */
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    padding-top: 20px; /* Espaçamento no topo */
+}
